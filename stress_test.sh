@@ -1,5 +1,5 @@
 ## this script test stress, since the yum package mananger stress didnt activate test on old >> i added amazon epel before stress test
-## ___ what do to do __
+## ___ what to do __
 ## 1. go to a new ec2 connect keep database random data coming in 
 ## 2. cd 
 ## 3. vi stress_test.sh >> input the script 
