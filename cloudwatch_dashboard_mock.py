@@ -1,7 +1,7 @@
 ## original needed changes/// be sure to run put script in app.py 
                  ## WHAT DOES THE SCRIPT DO ? ##
    ## IT RUNS A DYNAMODB TABLE THAT KEEPS PUTTING DATA IN TABLE
-## BEFORE YOU RUN CHANGE THE REGION ITS GOING TO BE RAN ## READ LINE 10 
+## BEFORE YOU RUN CHANGE THE REGION ITS GOING TO BE RAN ## READ LINE 25
 #______ RUN THESES COMMANDS FOR DEPENDENCIES FIRST_______
 # 1. sudo su 
 # 2. cd 
