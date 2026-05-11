@@ -4,6 +4,7 @@
 ## 2. cd 
 ## 3. vi stress_test.sh >> input the script 
 ## 4. bash stress_test.sh 
+## 5. Optional run stress commands like >> stress --cpu 9
 ## follow the rest of the lesson 
 
 
