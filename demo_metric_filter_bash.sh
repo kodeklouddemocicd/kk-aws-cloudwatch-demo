@@ -16,6 +16,7 @@
 ## 9. run: aws logs put-log-events --log-group-name application-404-error-tracker --log-stream-name hostname --log-events file://events_all.json (mke sure cloudwatch logs full permission is on to extract logs )
 
 
+
 #!/bin/bash
 
 # Number of messages to generate
