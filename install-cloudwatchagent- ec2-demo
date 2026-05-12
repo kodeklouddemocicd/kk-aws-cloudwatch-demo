@@ -1,7 +1,7 @@
 ## cloudwatchagent ______________________ DEMO for login monitoring 
 # 1. keep all the configs from the first demo or make a role with permissons to cloudwatch, cloudwatch logs and ec2 create 
 # 2. add cloudagentserver to the iam role created 
-# 2.1 go to log management >> create a log group >> NAME IS IMPORTANT FOR CONFIGURATION .JSON FILE 
+# 2.1 go to log management >> create a log group >> NAME IS IMPORTANT FOR CONFIGURATION .JSON FILE ## LINE 49 
 ## 3. create a new ec2 
 ## 4. sudo su
 ## 5. cd 
