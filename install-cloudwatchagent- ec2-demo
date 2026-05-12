@@ -14,7 +14,7 @@
 ## install Cloudwatchangent____________
 ## 1. cd
 ## 2. wget https://s3.amazonaws.com/amazoncloudwatch-agent/linux/amd64/latest/AmazonCloudWatchAgent.zip
-## 3. unzip AmazonCloudWatchAgent.zip 
+## 3. unzip AmazonCloudWatchAgent.zip (if you cant unzip install unzip file)
 ## 4. sudo ./install.sh  >> creates a user and group for cloudwatchagent
 ## 5. vi cloudwatch-agent-config.json >> copy and paste congig line #
 ## 5.1 change the file path to the unstructured logs >>> "var/log/audit.log"
