@@ -1,0 +1,15 @@
+# what does it do 
+## it makes the lambda script run 50 times 
+# 1. Go to the cli cloudshell of the amazon 
+# 2. vi lambda_call.sh >> input the bash script
+# 3. bash lambda_call.sh 
+# when done go to to >> cli >> actions >> click "restart aws cloudshell" 
+
+
+
+for i in {1..50}; do
+  aws lambda invoke --function-name HelloWorldFunction01 --payload '{}' output1.txt
+  aws lambda invoke --function-name HelloWorldFunction02 --payload '{}' output2.txt
+  aws lambda invoke --function-name HelloWorldFunction03 --payload '{}' output3.txt
+done
+  

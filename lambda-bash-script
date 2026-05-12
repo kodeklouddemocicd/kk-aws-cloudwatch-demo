@@ -1,9 +1,0 @@
-# what does it do 
-## it makes the lambda script run 50 times 
-
-for i in {1..50}: do 
-  aws lambda invoke --function-name HelloWorldFunction01 --payload '{}' output.txt
-  aws lambda invoke --function-name HelloWorldFunction02 --payload '{}' output.txt
-  aws lambda invoke --function-name HelloWorldFunction03 --payload '{}' output.txt
-done
-  
